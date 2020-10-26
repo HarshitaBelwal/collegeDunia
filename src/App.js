@@ -1,6 +1,7 @@
 import React from 'react';
-
+import ImageList from './ImageList';
 class App extends React.Component {
+  state = { images : [] };
 
       render() {
         return (
@@ -12,3 +13,5 @@ class App extends React.Component {
     }
     
     export default App;
+
+    
